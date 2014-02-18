@@ -5,14 +5,13 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 import five.in.a.row.FiveInARow;
-import five.in.a.row.JinqiuFiveInARow;
 
 public class FiveInARowTest {
 
 	@Test
 	public void test() {
 		
-		FiveInARow f = new JinqiuFiveInARow();
+		FiveInARow f = new FiveInARow();
 		
 		int[][] a = 
 				{{0, 0, 0, 0, 0, 0, 0, 0},
